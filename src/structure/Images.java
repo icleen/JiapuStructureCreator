@@ -22,9 +22,7 @@ public class Images {
         StringBuilder output = new StringBuilder();
         output.append("staticData = {\n");
         for (int i = 0; i < images.size(); i++) {
-            output.append("\"" + i + "\": {\n");
             output.append(images.get(i).toString());
-            output.append("\n},");
         }
         output.append("\n}");
         return output.toString();

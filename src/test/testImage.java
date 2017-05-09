@@ -18,12 +18,14 @@ public class testImage {
 //            "name": "parent",
 //            "id": 0
 //        }
-        String expected = "\t\"ascBranchIds\": []," +
+        String expected = "\"0\": {" +
+                "\n\t\"ascBranchIds\": []," +
                 "\n\t\"data\": {" +
                 "\n\t\t\"image\": \"test_images//record-image_3QSQ-G9SF-K9BM-8.jpg\"," +
                 "\n\t\t\"name\": \"parent\"," +
                 "\n\t\t\"id\": 0" +
-                "\n\t\t}";
+                "\n\t}" +
+                "\n},";
         Image image = new Image(
                 "test_images//record-image_3QSQ-G9SF-K9BM-8.jpg",
                 "parent", 0);

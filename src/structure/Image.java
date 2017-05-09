@@ -21,12 +21,14 @@ public class Image {
     @Override
     public String toString() {
         StringBuilder output = new StringBuilder();
+        output.append("\"" + id + "\": {\n");
         output.append("\t\"ascBranchIds\": [],");
         output.append("\n\t\"data\": {");
         output.append("\n\t\t\"image\": \"" + imagePath + "\",");
         output.append("\n\t\t\"name\": \"" + name + "\",");
         output.append("\n\t\t\"id\": " + id);
         output.append("\n\t}");
+        output.append("\n},");
         return output.toString();
     }
 

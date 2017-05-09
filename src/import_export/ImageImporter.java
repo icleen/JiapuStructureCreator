@@ -1,11 +1,13 @@
 package import_export;
 
+import structure.Image;
 import structure.Images;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.Reader;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
@@ -28,20 +30,24 @@ public class ImageImporter {
         String read = "0";
         int index = 0;
         while(index < files.length) {
-            if (skip == 0) {
-
+            try {
                 System.out.println("\nHow many files are in this group?");
 
                 skip = scanner.nextInt();
+                if (skip < 1) {
+                    throw new IllegalArgumentException("The input was less than 1");
+                }
 
                 String path = files[index];
-                images.addImage(path, index + path);
-
-            }else {
-                System.out.print(" skip: " + skip + ", index: " + index);
-                skip--;
+                images.addImage(new Image(path, skip + path, index));
+                index += skip;
+                skip = 0;
+            } catch (IllegalArgumentException e) {
+                System.err.println(e.getMessage());
+            } catch (InputMismatchException e) {
+                System.err.println("You're input was not an integer!");
+                scanner.nextLine();
             }
-            index++;
         }
 
         return images;
