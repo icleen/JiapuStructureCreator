@@ -6,9 +6,7 @@ import structure.ImageIds;
 import structure.Images;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.InputMismatchException;
-import java.util.List;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
@@ -21,7 +19,7 @@ public class ImageImporter {
     private int id;
     private ImageIds ids;
 
-    public Images importToStructure(String folderPath, String startNumber) {
+    public Images importToStructure(String folderPath, String heirarchy, String startNumber) {
 //        System.out.println(folderPath);
         id = Integer.parseInt(startNumber);
         File file = new File(folderPath);
@@ -33,26 +31,52 @@ public class ImageImporter {
         images = new Images();
         ids = new ImageIds();
         for (int i = 0; i < files.length; i++) {
-            ids.add(new ImageId(id + i, files[i]));
+            ids.add(new ImageId(i, id + i, files[i]));
         }
 
+        File heir = new File(heirarchy);
+        try {
+            Scanner scanner = new Scanner(heir);
+            recurse(scanner);
 
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
 
-//        Scanner scanner = new Scanner(System.in);
-//        index = 0;
-//        Image root = null;
-//        try {
-//            root = recurseAdd(files, scanner, 0);
-//
-//        } catch (IllegalArgumentException e) {
-//            System.err.println(e.getMessage());
-//        } catch (InputMismatchException e) {
-//            System.err.println("You're input was not an integer!");
-//            scanner.nextLine();
-//        }
-//        images.addImage(root);
         return images;
     }
+
+    private int recurse(Scanner scanner) {
+        if (!scanner.hasNextLine()) {
+            return -1;
+        }
+        String line = scanner.nextLine();
+        String[] numbers = line.split(" ");
+        int begin = Integer.parseInt(numbers[0]);
+        int end = Integer.parseInt(numbers[1]);
+        int childCount = Integer.parseInt(numbers[2]);
+
+        ImageId iid = ids.getImageId(begin);
+        if (iid == null) {
+            return -1;
+        }
+        System.out.println(iid.getIndex());
+        System.out.println(iid.getId());
+        System.out.println(iid.getImagePath());
+        Image image = new Image(iid.getIndex(), iid.getId(), iid.getImagePath(), iid.getId() + "_" + iid.getIndex());
+        images.addImage(image);
+        int index;
+        while (childCount > 0) {
+            index = recurse(scanner);
+            image.addChild(index);
+            childCount--;
+        }
+
+        return image.getIndex();
+    }
+
+}
+
 
 //    private Image recurseAdd(String[] files, Scanner scanner, int number) {
 //        Image root = null;
@@ -73,7 +97,7 @@ public class ImageImporter {
 ////      adds the number of images specified to the root Image's group attribute
 //        while (index < files.length && group > 1) {
 //            path = files[index];
-//            root.addGroupMember(new Image(path, group + " ", index));
+//            root.addGroupMember(new Image(path, group + " ", index, index));
 //            System.out.println("Adding group member: " + index);
 //            ++index;
 //            --group;
@@ -95,5 +119,3 @@ public class ImageImporter {
 //        System.out.println("index: " + index);
 //        return root;
 //    }
-
-}

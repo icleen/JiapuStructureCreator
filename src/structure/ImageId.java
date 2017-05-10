@@ -5,15 +5,25 @@ package structure;
  */
 public class ImageId {
 
+    private int index;
     private int id;
     private String imagePath;
 
     public ImageId() {
     }
 
-    public ImageId(int id, String path) {
+    public ImageId(int index, int id, String path) {
+        this.index = index;
         this.id = id;
         this.imagePath = path;
+    }
+
+    public int getIndex() {
+        return index;
+    }
+
+    public void setIndex(int index) {
+        this.index = index;
     }
 
     public int getId() {

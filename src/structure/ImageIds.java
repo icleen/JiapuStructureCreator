@@ -18,11 +18,7 @@ public class ImageIds {
         ids.add(id);
     }
 
-    public ImageId getIdByIndex(int index) {
-        return ids.get(index);
-    }
-
-    public ImageId getId(int id) {
+    public ImageId getImageId(int id) {
         for (ImageId imageId : ids) {
             if (imageId.getId() == id) {
                 return imageId;

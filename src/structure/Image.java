@@ -8,33 +8,36 @@ import java.util.List;
  */
 public class Image {
 
+    private int index;
+    private int id;
     private String imagePath;
     private String name;
-    private int id;
-    private int index;
 
     private List<Image> group;
     private List<Image> children;
+    private List<Integer> childIds;
 
     public Image() {
     }
 
-    public Image(String imagePath, String name, int id, int index) {
+    public Image(int index, int id, String imagePath, String name) {
+        this.index = index;
+        this.id = id;
         this.imagePath = imagePath;
         this.name = name;
-        this.id = id;
-        this.index = index;
         this.group = new ArrayList<>();
         this.children = new ArrayList<>();
+        this.childIds = new ArrayList<>();
     }
 
     @Override
     public String toString() {
         StringBuilder output = new StringBuilder();
-        output.append("\"" + id + "\": {\n");
+        output.append("\"" + index + "\": {\n");
         output.append("\t\"ascBranchIds\": [");
-        for (int i = 0; i < children.size(); i++) {
-            output.append(children.get(i).getId());
+        for (int i = 0; i < childIds.size(); i++) {
+            output.append(childIds.get(i));
+            if (i < childIds.size() - 1) output.append(", ");
         }
         output.append("],");
         output.append("\n\t\"data\": {");
@@ -92,6 +95,10 @@ public class Image {
 
     public void setChildren(List<Image> children) {
         this.children = children;
+    }
+
+    public void addChild(int childId) {
+        childIds.add(childId);
     }
 
     public void addChild(Image child) {

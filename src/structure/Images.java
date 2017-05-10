@@ -18,16 +18,17 @@ public class Images {
         this.images = images;
     }
 
+    @Override
     public String toString() {
         StringBuilder output = new StringBuilder();
         output.append("staticData = {\n");
-        output.append("\"0\": {"
-            + "\n\t\"ascBranchIds\": [1, 2, 3, 4, 5],"
-            + "\n\t\"data\": {"
-                        + "\n\t\t\"name\": \"number\","
-                        + "\n\t\t\"id\": 0"
-                + "\n\t}"
-        + "\n},");
+//        output.append("\"0\": {"
+//            + "\n\t\"ascBranchIds\": [1, 2, 3, 4, 5],"
+//            + "\n\t\"data\": {"
+//                        + "\n\t\t\"name\": \"number\","
+//                        + "\n\t\t\"id\": 0"
+//                + "\n\t}"
+//        + "\n},");
         for (int i = 0; i < images.size(); i++) {
             output.append(images.get(i).toString());
         }
@@ -39,31 +40,19 @@ public class Images {
         images.add(image);
     }
 
-    public void addImage(String imagePath, String name) {
-        images.add(new Image(imagePath, name, images.size() + 1));
-    }
-
-    public List<Image> getImages() {
-        return images;
-    }
-
-    public void setImages(List<Image> images) {
-        this.images = images;
-    }
-
-    public static void main(String[] args) {
-        Images images = new Images();
-        images.addImage(new Image(
-                "test_images//record-image_3QSQ-G9SF-K9BM-8.jpg",
-                "parent", 0));
-        images.addImage(new Image(
-                "test_images//record-image_3QSQ-G9SF-K9BM-8.jpg",
-                "child", 1));
-        images.addImage(new Image(
-                "test_images//record-image_3QSQ-G9SF-K9BM-8.jpg",
-                "child", 2));
-        System.out.println(images.toString());
-    }
+//    public static void main(String[] args) {
+//        Images images = new Images();
+//        images.addImage(new Image(
+//                "test_images//record-image_3QSQ-G9SF-K9BM-8.jpg",
+//                "parent", 0));
+//        images.addImage(new Image(
+//                "test_images//record-image_3QSQ-G9SF-K9BM-8.jpg",
+//                "child", 1));
+//        images.addImage(new Image(
+//                "test_images//record-image_3QSQ-G9SF-K9BM-8.jpg",
+//                "child", 2));
+//        System.out.println(images.toString());
+//    }
 
 }
 //staticData = {
