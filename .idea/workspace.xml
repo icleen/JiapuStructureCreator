@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f18db4-91de-4e31-87f9-d624b7ed3e29" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/import_export/ImageImporter.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/import_export/ImageImporter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/main/Main.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/main/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/structure/Image.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/structure/Image.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/structure/Images.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/structure/Images.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/test/testImage.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/test/testImage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bob.txt" afterPath="$PROJECT_DIR$/bob.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/import_export/ImageImporter.java" afterPath="$PROJECT_DIR$/src/import_export/ImageImporter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Main.java" afterPath="$PROJECT_DIR$/src/main/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structure/Image.java" afterPath="$PROJECT_DIR$/src/structure/Image.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structure/ImageId.java" afterPath="$PROJECT_DIR$/src/structure/ImageId.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structure/ImageIds.java" afterPath="$PROJECT_DIR$/src/structure/ImageIds.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structure/Images.java" afterPath="$PROJECT_DIR$/src/structure/Images.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/testImage.java" afterPath="$PROJECT_DIR$/src/test/testImage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,16 +56,16 @@
           <file leaf-file-name="Image.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/structure/Image.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="582">
-                  <caret line="39" column="61" lean-forward="true" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+                <state relative-caret-position="602">
+                  <caret line="43" column="47" lean-forward="false" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#2268#2269#0" expanded="true" />
-                    <element signature="e#2305#2306#0" expanded="true" />
-                    <element signature="e#2346#2347#0" expanded="true" />
-                    <element signature="e#2381#2382#0" expanded="true" />
-                    <element signature="e#2691#2692#0" expanded="true" />
-                    <element signature="e#2724#2725#0" expanded="true" />
+                    <element signature="e#2275#2276#0" expanded="true" />
+                    <element signature="e#2312#2313#0" expanded="true" />
+                    <element signature="e#2353#2354#0" expanded="true" />
+                    <element signature="e#2388#2389#0" expanded="true" />
+                    <element signature="e#2698#2699#0" expanded="true" />
+                    <element signature="e#2731#2732#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -121,11 +109,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bob.txt" pinned="false" current-in-tab="true">
+          <file leaf-file-name="bob.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bob.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="460">
-                  <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+                <state relative-caret-position="340">
+                  <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bob.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bob.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="9" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -770,7 +768,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/Jiapu JiapuHeirarchy 1671 bob.txt" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/Jiapu JiapuHeirarchy 1671 bob.js" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -798,7 +796,7 @@
       <option name="presentableId" value="Default" />
       <updated>1494361345772</updated>
       <workItem from="1494361351269" duration="8698000" />
-      <workItem from="1494444378531" duration="13115000" />
+      <workItem from="1494444378531" duration="13592000" />
     </task>
     <servers />
   </component>
@@ -835,10 +833,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21813000" />
+    <option name="totallyTimeSpent" value="22290000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="2495" height="1604" extended-state="6" />
+    <frame x="65" y="-4" width="2495" height="1604" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -855,7 +854,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14028056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14028056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1054,14 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bob.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/import_export/ImageImporter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1072,19 +1063,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bob.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/structure/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="39" column="61" lean-forward="true" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        <state relative-caret-position="602">
+          <caret line="43" column="47" lean-forward="false" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2268#2269#0" expanded="true" />
-            <element signature="e#2305#2306#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
-            <element signature="e#2381#2382#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#2724#2725#0" expanded="true" />
+            <element signature="e#2275#2276#0" expanded="true" />
+            <element signature="e#2312#2313#0" expanded="true" />
+            <element signature="e#2353#2354#0" expanded="true" />
+            <element signature="e#2388#2389#0" expanded="true" />
+            <element signature="e#2698#2699#0" expanded="true" />
+            <element signature="e#2731#2732#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bob.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -41,7 +41,7 @@ public class Image {
         }
         output.append("],");
         output.append("\n\t\"data\": {");
-        output.append("\n\t\t\"image\": \"" + imagePath + "\",");
+        output.append("\n\t\t\"image\": \"Jiapu//" + imagePath + "\",");
         output.append("\n\t\t\"name\": \"" + name + "\",");
         output.append("\n\t\t\"id\": " + id);
         output.append("\n\t}");
