@@ -10,8 +10,8 @@ import structure.Images;
 public class Main {
 
     public static void main(String[] args) {
-        Images images = new ImageImporter().importToStructure("Jiapu");
-        new ImageExporter().exportImages("bob.txt", images);
+        Images images = new ImageImporter().importToStructure(args[0], args[1]);
+        new ImageExporter().exportImages(args[2], images);
     }
 
 }

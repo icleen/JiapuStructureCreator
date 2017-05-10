@@ -10,20 +10,9 @@ import java.io.*;
 public class ImageExporter {
 
     public void exportImages(String fileName, Images images) {
-        Writer writer = null;
         try {
-            writer = new PrintWriter(new BufferedWriter(new FileWriter(fileName)));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        try {
+            Writer writer = new PrintWriter(new BufferedWriter(new FileWriter(fileName)));
             writer.write(images.toString());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        try {
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();

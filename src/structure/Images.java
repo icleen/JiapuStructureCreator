@@ -21,6 +21,13 @@ public class Images {
     public String toString() {
         StringBuilder output = new StringBuilder();
         output.append("staticData = {\n");
+        output.append("\"0\": {"
+            + "\n\t\"ascBranchIds\": [1, 2, 3, 4, 5],"
+            + "\n\t\"data\": {"
+                        + "\n\t\t\"name\": \"number\","
+                        + "\n\t\t\"id\": 0"
+                + "\n\t}"
+        + "\n},");
         for (int i = 0; i < images.size(); i++) {
             output.append(images.get(i).toString());
         }
@@ -33,7 +40,7 @@ public class Images {
     }
 
     public void addImage(String imagePath, String name) {
-        images.add(new Image(imagePath, name, images.size()));
+        images.add(new Image(imagePath, name, images.size() + 1));
     }
 
     public List<Image> getImages() {
