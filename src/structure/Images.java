@@ -40,6 +40,15 @@ public class Images {
         images.add(image);
     }
 
+    public Image getImageById(String id) {
+        for (Image image : images) {
+            if ( image.getId().equals(id) ) {
+                return image;
+            }
+        }
+        return null;
+    }
+
 //    public static void main(String[] args) {
 //        Images images = new Images();
 //        images.addImage(new Image(

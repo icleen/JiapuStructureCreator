@@ -9,18 +9,20 @@ import java.util.List;
 public class Image {
 
     private int index;
-    private int id;
+    private String id;
     private String imagePath;
     private String name;
 
     private List<Image> group;
     private List<Image> children;
-    private List<Integer> childIds;
+    private List<String> childIds;
+    private List<String> spouseIds;
+    private List<String> parentIds;
 
     public Image() {
     }
 
-    public Image(int index, int id, String imagePath, String name) {
+    public Image(int index, String id, String imagePath, String name) {
         this.index = index;
         this.id = id;
         this.imagePath = imagePath;
@@ -28,12 +30,14 @@ public class Image {
         this.group = new ArrayList<>();
         this.children = new ArrayList<>();
         this.childIds = new ArrayList<>();
+        this.spouseIds = new ArrayList<>();
+        this.parentIds = new ArrayList<>();
     }
 
     @Override
     public String toString() {
         StringBuilder output = new StringBuilder();
-        output.append("\"" + index + "\": {\n");
+        output.append("\"" + id + "\": {\n");
         output.append("\t\"ascBranchIds\": [");
         for (int i = 0; i < childIds.size(); i++) {
             output.append(childIds.get(i));
@@ -65,11 +69,11 @@ public class Image {
         this.name = name;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -93,25 +97,41 @@ public class Image {
         return children;
     }
 
-    public void setChildren(List<Image> children) {
-        this.children = children;
-    }
-
-    public void addChild(int childId) {
-        childIds.add(childId);
-    }
-
     public void addChild(Image child) {
         children.add(child);
     }
 
-    public void addChild(Image child, int groupMember) {
+    public void addChild(Image child, String groupMember) {
         for (int i = 0; i < group.size(); i++) {
-            if (group.get(i).getId() == groupMember) {
+            if ( group.get(i).getId().equals(groupMember) ) {
                 group.get(i).addChild(child);
                 return;
             }
         }
+    }
+
+    public void addChildId(String id) {
+        childIds.add(id);
+    }
+
+    public void addParentId(String id) {
+        parentIds.add(id);
+    }
+
+    public void addSpouseId(String id) {
+        childIds.add(id);
+    }
+
+    public List<String> getChildIds() {
+        return childIds;
+    }
+
+    public List<String> getSpouseIds() {
+        return spouseIds;
+    }
+
+    public List<String> getParentIds() {
+        return parentIds;
     }
 
     public void addGroupMember(Image member) {

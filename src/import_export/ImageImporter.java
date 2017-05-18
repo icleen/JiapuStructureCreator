@@ -63,12 +63,12 @@ public class ImageImporter {
         System.out.println(iid.getIndex());
         System.out.println(iid.getId());
         System.out.println(iid.getImagePath());
-        Image image = new Image(iid.getIndex(), iid.getId(), iid.getImagePath(), iid.getId() + "_" + iid.getIndex());
+        Image image = new Image(iid.getIndex(), "" + iid.getId(), iid.getImagePath(), iid.getId() + "_" + iid.getIndex());
         images.addImage(image);
         int index;
         while (childCount > 0) {
             index = recurse(scanner);
-            image.addChild(index);
+            image.addChildId("" + index);
             childCount--;
         }
 
