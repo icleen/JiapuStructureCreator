@@ -37,7 +37,7 @@ public class Image {
     @Override
     public String toString() {
         StringBuilder output = new StringBuilder();
-        output.append("\"" + id + "\": {\n");
+        output.append("\"" + index + "\": {\n");
         output.append("\t\"ascBranchIds\": [");
         for (int i = 0; i < childIds.size(); i++) {
             output.append(childIds.get(i));
@@ -45,9 +45,9 @@ public class Image {
         }
         output.append("],");
         output.append("\n\t\"data\": {");
-        output.append("\n\t\t\"image\": \"Jiapu//" + imagePath + "\",");
+        output.append("\n\t\t\"image\": \"image//" + imagePath + "\",");
         output.append("\n\t\t\"name\": \"" + name + "\",");
-        output.append("\n\t\t\"id\": " + id);
+        output.append("\n\t\t\"id\": " + index);
         output.append("\n\t}");
         output.append("\n},");
         return output.toString();

@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f18db4-91de-4e31-87f9-d624b7ed3e29" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/persons.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/relationships.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/python_port/PythonImporter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/import_export/ImageImporter.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/import_export/ImageImporter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/main/Main.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/main/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/structure/Image.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/structure/Image.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/structure/Images.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/structure/Images.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/import_export/ImageImporter.java" afterPath="$PROJECT_DIR$/src/import_export/ImageImporter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/Main.java" afterPath="$PROJECT_DIR$/src/main/Main.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/python_port/PythonImporter.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/python_port/PythonImporter.java" afterPath="$PROJECT_DIR$/src/python_port/PythonImporter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structure/Image.java" afterPath="$PROJECT_DIR$/src/structure/Image.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structure/Images.java" afterPath="$PROJECT_DIR$/src/structure/Images.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PythonImporter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PythonImporter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/python_port/PythonImporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+            <state relative-caret-position="550">
+              <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
               <folding>
                 <element signature="docComment;class#PythonImporter#0" expanded="false" />
               </folding>
@@ -38,11 +29,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Image.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jiapu_test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jiapu_test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Image.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/structure/Image.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+            <state relative-caret-position="545">
+              <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#addChild#1;class#Image#0" expanded="false" />
@@ -123,9 +124,9 @@
         <option value="$PROJECT_DIR$/src/structure/Images.java" />
         <option value="$PROJECT_DIR$/src/import_export/ImageImporter.java" />
         <option value="$PROJECT_DIR$/src/python_port/Python_importer.java" />
-        <option value="$PROJECT_DIR$/src/structure/Image.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/python_port/PythonImporter.java" />
+        <option value="$PROJECT_DIR$/src/structure/Image.java" />
       </list>
     </option>
   </component>
@@ -749,7 +750,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/persons.txt relations.txt Jiapu jiapuJs.js" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/persons.txt relationships.txt Jiapu jiapu_test.js" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -778,7 +779,7 @@
       <updated>1494361345772</updated>
       <workItem from="1494361351269" duration="8698000" />
       <workItem from="1494444378531" duration="16182000" />
-      <workItem from="1495143125012" duration="3578000" />
+      <workItem from="1495143125012" duration="6569000" />
     </task>
     <servers />
   </component>
@@ -815,7 +816,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28458000" />
+    <option name="totallyTimeSpent" value="31449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="2497" height="1612" extended-state="6" />
@@ -1050,17 +1051,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/structure/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#addChild#1;class#Image#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/import_export/ImageExporter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -1119,18 +1109,45 @@
     </entry>
     <entry file="jar:///usr/lib/jvm/java-1.7.0-openjdk-amd64/jre/lib/rt.jar!/java/util/Scanner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="403" column="0" lean-forward="false" selection-start-line="403" selection-start-column="0" selection-end-line="403" selection-end-column="0" />
+        <state relative-caret-position="87">
+          <caret line="682" column="67" lean-forward="true" selection-start-line="682" selection-start-column="67" selection-end-line="682" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiapuJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/python_port/PythonImporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        <state relative-caret-position="550">
+          <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
           <folding>
             <element signature="docComment;class#PythonImporter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiapu_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/structure/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addChild#1;class#Image#0" expanded="false" />
           </folding>
         </state>
       </provider>
