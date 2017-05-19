@@ -12,11 +12,13 @@ public class Image {
     private String id;
     private String imagePath;
     private String name;
+    private String gender;
 
     private List<Image> group;
     private List<Image> children;
     private List<String> childIds;
     private List<String> spouseIds;
+    private List<String> spouseNames;
     private List<String> parentIds;
 
     public Image() {
@@ -31,6 +33,7 @@ public class Image {
         this.children = new ArrayList<>();
         this.childIds = new ArrayList<>();
         this.spouseIds = new ArrayList<>();
+        this.spouseNames = new ArrayList<>();
         this.parentIds = new ArrayList<>();
     }
 
@@ -47,7 +50,12 @@ public class Image {
         output.append("\n\t\"data\": {");
         output.append("\n\t\t\"image\": \"image//" + imagePath + "\",");
         output.append("\n\t\t\"name\": \"" + name + "\",");
-        output.append("\n\t\t\"id\": " + index);
+        output.append("\n\t\t\"gender\": \"" + gender + "\",");
+        output.append("\n\t\t\"id\": " + index + ",");
+        if (spouseIds.size() > 0) {
+            output.append("\n\t\t\"spouseId\": " + spouseIds.get(0) + ",");
+            output.append("\n\t\t\"spouseName\": \"" + spouseNames.get(0) + "\",");
+        }
         output.append("\n\t}");
         output.append("\n},");
         return output.toString();
@@ -85,6 +93,14 @@ public class Image {
         this.index = index;
     }
 
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
     public List<Image> getGroup() {
         return group;
     }
@@ -119,7 +135,11 @@ public class Image {
     }
 
     public void addSpouseId(String id) {
-        childIds.add(id);
+        spouseIds.add(id);
+    }
+
+    public void addSpouseName(String id) {
+        spouseNames.add(id);
     }
 
     public List<String> getChildIds() {

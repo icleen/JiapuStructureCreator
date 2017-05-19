@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f18db4-91de-4e31-87f9-d624b7ed3e29" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/python_port/PythonImporter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bob.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/python_port/PythonImporter.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/python_port/PythonImporter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/structure/Image.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/structure/Image.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jiapu_test.js" afterPath="$PROJECT_DIR$/jiapu_test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persons.txt" afterPath="$PROJECT_DIR$/persons.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/python_port/PythonImporter.java" afterPath="$PROJECT_DIR$/src/python_port/PythonImporter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structure/Image.java" afterPath="$PROJECT_DIR$/src/structure/Image.java" />
     </list>
@@ -20,8 +26,8 @@
       <file leaf-file-name="PythonImporter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/python_port/PythonImporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+            <state relative-caret-position="380">
+              <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
               <folding>
                 <element signature="docComment;class#PythonImporter#0" expanded="false" />
               </folding>
@@ -32,8 +38,28 @@
       <file leaf-file-name="jiapu_test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jiapu_test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="420">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persons.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/persons.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="75" lean-forward="false" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="relationships.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/relationships.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -42,8 +68,8 @@
       <file leaf-file-name="Image.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/structure/Image.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+            <state relative-caret-position="450">
+              <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#addChild#1;class#Image#0" expanded="false" />
@@ -56,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/src/structure/Images.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="645">
-              <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+              <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+              <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,8 +151,8 @@
         <option value="$PROJECT_DIR$/src/import_export/ImageImporter.java" />
         <option value="$PROJECT_DIR$/src/python_port/Python_importer.java" />
         <option value="$PROJECT_DIR$/src/main/Main.java" />
-        <option value="$PROJECT_DIR$/src/python_port/PythonImporter.java" />
         <option value="$PROJECT_DIR$/src/structure/Image.java" />
+        <option value="$PROJECT_DIR$/src/python_port/PythonImporter.java" />
       </list>
     </option>
   </component>
@@ -779,7 +805,7 @@
       <updated>1494361345772</updated>
       <workItem from="1494361351269" duration="8698000" />
       <workItem from="1494444378531" duration="16182000" />
-      <workItem from="1495143125012" duration="6569000" />
+      <workItem from="1495143125012" duration="10049000" />
     </task>
     <servers />
   </component>
@@ -816,7 +842,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31449000" />
+    <option name="totallyTimeSpent" value="34929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="2497" height="1612" extended-state="6" />
@@ -1071,26 +1097,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/persons.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/relationships.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+          <caret line="21" column="58" lean-forward="false" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1100,7 +1110,7 @@
     <entry file="file://$PROJECT_DIR$/src/structure/Images.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
-          <caret line="42" column="42" lean-forward="true" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1123,28 +1133,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/relationships.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="15" lean-forward="true" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/persons.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="75" lean-forward="false" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiapu_test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/python_port/PythonImporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        <state relative-caret-position="380">
+          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
           <folding>
             <element signature="docComment;class#PythonImporter#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jiapu_test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/structure/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+        <state relative-caret-position="450">
+          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#addChild#1;class#Image#0" expanded="false" />

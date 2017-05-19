@@ -17,6 +17,7 @@ public class PythonImporter {
 
     private static final String SPOUSE = "Couple";
     private static final String CHILD = "ParentChild";
+    private static final String FEMALE = "Unknown";
 
     Images images;
 
@@ -28,7 +29,7 @@ public class PythonImporter {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        String id = null, name = null, imagePath = null, id2 = null, line = null;
+        String id = null, name = null, imagePath = null, gender = null, id2 = null, line = null;
         String[] parts;
         int index = 0;
         while (scanner.hasNextLine()) {
@@ -37,11 +38,14 @@ public class PythonImporter {
             id = parts[0];
             name = parts[1];
             imagePath = parts[2];
+            gender = parts[3];
             parts = imagePath.split("/");
             imagePath = parts[parts.length - 1];
             imagePath = imagePath.replace(":", "-");
             index = Integer.parseInt(id.substring(1));
-            images.addImage( new Image(index, id, imagePath, name) );
+            Image image = new Image(index, id, imagePath, name);
+            image.setGender(gender);
+            images.addImage( image );
         }
 
         try {
@@ -61,7 +65,9 @@ public class PythonImporter {
             if (parent != null && child != null) {
                 if (name.equals(SPOUSE)) {
                     parent.addSpouseId("" + child.getIndex());
+                    parent.addSpouseName(child.getName());
                     child.addSpouseId("" + parent.getIndex());
+                    child.addSpouseName(parent.getName());
                 }else if (name.equals(CHILD)) {
                     parent.addChildId("" + child.getIndex());
                     child.addParentId("" + parent.getIndex());
