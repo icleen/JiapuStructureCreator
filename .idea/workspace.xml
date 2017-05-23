@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93f18db4-91de-4e31-87f9-d624b7ed3e29" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bob.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bob.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/python_port/PythonImporter.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/python_port/PythonImporter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiapuStructureCreator/structure/Image.class" afterPath="$PROJECT_DIR$/out/production/JiapuStructureCreator/structure/Image.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jiapu_test.js" afterPath="$PROJECT_DIR$/jiapu_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persons.txt" afterPath="$PROJECT_DIR$/persons.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/python_port/PythonImporter.java" afterPath="$PROJECT_DIR$/src/python_port/PythonImporter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/structure/Image.java" afterPath="$PROJECT_DIR$/src/structure/Image.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jiapu_test1.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Image.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Image.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/structure/Image.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -74,6 +66,16 @@
                 <element signature="imports" expanded="true" />
                 <element signature="method#addChild#1;class#Image#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jiapu_test1.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jiapu_test1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -805,7 +807,7 @@
       <updated>1494361345772</updated>
       <workItem from="1494361351269" duration="8698000" />
       <workItem from="1494444378531" duration="16182000" />
-      <workItem from="1495143125012" duration="10049000" />
+      <workItem from="1495143125012" duration="10672000" />
     </task>
     <servers />
   </component>
@@ -842,10 +844,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34929000" />
+    <option name="totallyTimeSpent" value="35552000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="2497" height="1612" extended-state="6" />
+    <frame x="64" y="-11" width="2497" height="1612" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1175,6 +1177,14 @@
             <element signature="imports" expanded="true" />
             <element signature="method#addChild#1;class#Image#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jiapu_test1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
